@@ -1,0 +1,49 @@
+/* src/App.css */
+
+/* Flex and Centering */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.button-link {
+  text-decoration: none;
+}
+
+.button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s;
+  display: inline-block;
+  min-width: 160px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.routes-container {
+  width: 100%;
+  max-width: 960px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 8px;
+}
